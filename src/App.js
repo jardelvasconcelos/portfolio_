@@ -1,25 +1,23 @@
-import logo from './logo.svg';
+import Buttom from './components/Buttom/buttom';
+import Topo from './components/Topo/topo';
+import Capa from './components/Capa/capa';
+import Sobre from './components/Sobre/sobre';
+import Cursos from './components/Cursos/cursos';
+import Projetos from './components/Projetos/projetos';
+import Footer from './components/Footer/footer';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+        <Buttom/>
+        <Topo/>
+        <Capa/>
+        <Sobre/>
+        <Cursos/>
+        <Projetos/>
+        <Footer/> 
     </div>
   );
 }
-
 export default App;

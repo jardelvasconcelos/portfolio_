@@ -1,0 +1,60 @@
+.cursos_flex_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* margin-top: 100px; */
+    width: 90%;
+    border: 1px solid #817a7a;
+    padding-top: 40px;
+    border-radius: 30px;
+}
+.cursos_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.logo_cursos{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+   /*  box-shadow:  0px 0px 8px 5px #353333; */
+}
+.cursos_coment{
+    text-align: center; 
+    line-height:30px;
+    font-family: var(--font3);
+    list-style: none;
+    color: var(--cor4)
+}
+.container_know{
+    padding: 10px;
+    color: var(--cor2);   
+}
+.subtitle{   
+    color: var(--cor4);
+    font-family: var(--font3);
+}
+
+@media (max-width:820px) {
+    .cursos_flex_container{
+        display: grid;
+        grid-template-columns: 1fr 1fr   
+    }
+    .sections {
+        height: auto;
+       }
+    .cursos_container{
+        margin-bottom: 30px;       
+    } 
+    .logo_cursos{
+        margin-bottom: 10px; 
+    }   
+    .container_know{
+        padding: 0px ;
+    }    
+}
+
+
