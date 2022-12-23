@@ -8,6 +8,26 @@
     width: 90%;
 }
 
+.button_card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.link_card {
+    text-decoration: none;
+    margin: 20px 10px;
+    border: 0px solid white;
+    border-radius: 40px;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+}
+.link_card:hover {
+    box-shadow: 3px 3px 3px #6e6767;
+    transition: 0.5s;
+}
+
 /* =========================== 
         Classes novas
 =============================*/
@@ -19,12 +39,12 @@
     align-items: center;
     border-radius: 20px;
     width: 200px;
-    height: 250px;
+    height: 350px;
 }
-.projects_container:hover{
+/* .projects_container:hover{
     box-shadow: 5px 5px 5px #6e6767;
     transition: 0.5s;
-}
+} */
 .image_projects{
     width: 150px;
     height: 150px;
