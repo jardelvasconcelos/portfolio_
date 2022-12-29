@@ -24,8 +24,9 @@
     font-size: 16px;
 }
 .link_card:hover {
-    box-shadow: 3px 3px 3px #6e6767;
+   /*  box-shadow: 2px 2px 2px #383636; */
     transition: 0.5s;
+    background-color: var(--cor7);
 }
 
 /* =========================== 
