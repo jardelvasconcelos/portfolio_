@@ -1,0 +1,25 @@
+/* CABEÇALHO */
+header {
+    
+    position: fixed;
+    top: 10%;
+    right: 5%;
+    width: 10%;
+    border: 2px solid white;
+
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topcis {
+    text-decoration: none;
+    color: var(--cor4);
+    font-size: 20px;
+    font-family: var(--font3);
+    margin: 30px 0;
+}
