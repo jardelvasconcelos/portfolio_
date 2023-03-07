@@ -9,6 +9,7 @@
 }
 
 .button_card {
+   
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -17,16 +18,16 @@
 .link_card {
     text-decoration: none;
     margin: 20px 10px;
-    border: 0px solid white;
     border-radius: 40px;
     padding: 10px;
     color: white;
     font-size: 16px;
+    background-color: var(--cor7);
 }
 .link_card:hover {
    /*  box-shadow: 2px 2px 2px #383636; */
-    transition: 0.5s;
-    background-color: var(--cor7);
+    /* transition: 0.5s; */
+    
 }
 
 /* =========================== 
