@@ -12,7 +12,7 @@ function App() {
   return (
     <div>
         <Buttom/>
-        <Menu/>
+        {/* <Menu/> */}
         {/* <Topo/> */}
         <Capa/>
         <Sobre/>
