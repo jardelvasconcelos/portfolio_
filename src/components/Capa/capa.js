@@ -1,6 +1,6 @@
 import './capa.css';
-
-export default function Capa (){
+// Com Arrow Function
+const Capa = () =>{
     return (
         <section className=" tela_home section"  id = "initial">
             <div className="content_home_content_ ">
@@ -11,3 +11,4 @@ export default function Capa (){
         </section>
     )
 }
+export default Capa;
