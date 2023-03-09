@@ -5,9 +5,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url('../../../public/assets/img/image_fundo.jpg');
-    background-size: cover;
-    
+}
+.tela_home {
+     background-image: url('../../../public/assets/img/image_fundo.jpg');
+     background-size: cover; 
 }
 .content_home_content{
     display: flex;

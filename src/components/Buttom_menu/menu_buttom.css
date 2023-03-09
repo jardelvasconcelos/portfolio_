@@ -1,0 +1,14 @@
+.container_buttom{
+    display: flex;
+    flex-direction: column;
+    width: min-content;
+    margin-left: 20px;
+    margin-top: 0px;
+}
+.menu_burger {
+    width: 30px;
+    height: 5px;
+    margin: 10px;
+    border:  solid 2px rgb(240, 233, 233);
+    border-radius: 5px;
+}
