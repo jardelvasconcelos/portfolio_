@@ -2,11 +2,10 @@
 header {
     
     position: fixed;
-    top: 10%;
-    right: 5%;
-    width: 10%;
+    top: 30px;
+    left: 30px;
+    width: 250px;
     border: 2px solid white;
-    visibility: hidden;
 
 }
 

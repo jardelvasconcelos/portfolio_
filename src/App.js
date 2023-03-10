@@ -12,7 +12,6 @@ import './App.css';
 function App() {
   return (
     <div>
-        {/* <Buttom_Menu/> */}
         <Buttom/>
         <Menu/>
         {/* <Topo/> */}
