@@ -1,0 +1,25 @@
+.buttom_close{
+    display: flex;
+    flex-direction: column;
+    width: min-content;
+    padding: 30px;
+}
+.menu_burger_close_a{
+    width: 35px;
+    height: 5px;
+    margin: 5px;
+    border:  solid 2px #c2eb0b;
+    border-radius: 5px;
+    background-color: #c2eb0b;
+    /* transform: rotate(45deg); */
+
+}
+.menu_burger_close_b{
+    width: 35px;
+    height: 5px;
+    margin: 5px;
+    border:  solid 2px #c2eb0b;
+    border-radius: 5px;
+    background-color: #aed814;
+   /*  transform: rotate(-45deg); */
+}

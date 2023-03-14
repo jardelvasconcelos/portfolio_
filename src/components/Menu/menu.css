@@ -1,12 +1,15 @@
 /* CABEÇALHO */
-header {
-    
+.index_menu {
     position: fixed;
     top: 30px;
     left: 30px;
     width: 250px;
     border: 2px solid white;
-
+}
+.b{
+    position: relative;
+    top: -30px;
+    left: -35px;
 }
 
 .menu {
