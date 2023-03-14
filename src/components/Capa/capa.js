@@ -4,9 +4,7 @@ import Buttom_Menu from '../Buttom_menu/menu_buttom';
 const Capa = () =>{
     return (
         <section className=" tela_home "  id = "initial">
-            <Buttom_Menu/>
-           
-            
+            <Buttom_Menu/> 
         <section > 
             <div className="content_home_content_  section">
                 <h1 className="content_title color-4">Desenvolvedor Front-End Junior</h1>

@@ -3,9 +3,8 @@ import "./buttom_fechar_menu.css";
 
 export default function FecharMenu(){
     return(
-        <section className="buttom_close">
-            <div className="menu_burger_close_a"></div>
-            <div className="menu_burger_close_b"></div>
+        <section className="container_buttom_close">
+            <button className ="buttom_close">Fechar</button>
         </section>
     )
 }

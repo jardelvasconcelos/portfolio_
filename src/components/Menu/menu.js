@@ -4,10 +4,10 @@ import FecharMenu from '../Buttom_fechar_menu/buttom_fechar_menu';
 export default function Menu() {
     return (
         <section className='index_menu'>
-            <div className='b'>
-               {/*  <FecharMenu/> */}
+            <div>
+                <FecharMenu/>
             </div>
-            <header id="home" >
+            <header >
                 <nav className="menu">
                     <a href="#sobre" className="topcis">Sobre</a>
                     <a href="#certificados" className="topcis">Cursos</a>

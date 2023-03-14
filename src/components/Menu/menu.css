@@ -4,12 +4,8 @@
     top: 30px;
     left: 30px;
     width: 250px;
-    border: 2px solid white;
-}
-.b{
-    position: relative;
-    top: -30px;
-    left: -35px;
+   /*  border: 2px solid white; */
+    background-color: var(--cor7);
 }
 
 .menu {
