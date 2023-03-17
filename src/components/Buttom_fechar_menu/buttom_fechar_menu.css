@@ -14,5 +14,13 @@
     border: none;
 
 }
+.display_dentro{
+    display: visible;
+}
+
+.display_fora{
+   
+    visibility: hidden;
+}
 
 

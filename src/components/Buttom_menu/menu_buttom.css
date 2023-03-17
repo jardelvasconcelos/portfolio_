@@ -1,19 +1,23 @@
 .container_buttom{
     display: flex;
     flex-direction: column;
-    width: min-content;
+    width: min-content; 
+    padding: 30px;
 }
 .menu_burger {
     width: 30px;
     height: 5px;
     margin: 2px;
-    border:  solid 2px #1c0df7;
+    border:  solid 2px #ebebf0;
     border-radius: 5px;
-    background-color: #240ee7;
-    
+    background-color: #ebebf0;
+}
+button{
+  background-color:var(--cor7);
+  border-radius: 10px;
 }
 .visibilidadeN{
-  display: none;
+  visibility: hidden;
 }
 .visibilidadeOK{
   display:visible;

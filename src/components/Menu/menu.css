@@ -33,3 +33,28 @@
   .tirarMenu{
     display: none;
   }  */
+
+  .container_buttom_close{
+    position: relative;
+    top: 0px;
+    left: 0px
+}
+
+.buttom_close{
+    background-color: var(--cor7);
+    height: 50px;
+    width: 100px;
+    color: var(--cor4);
+    border-radius: 40px;
+    font-size: 15px;
+    border: none;
+
+}
+.display_dentro{
+    display: visible;
+}
+
+.display_fora{
+   
+    visibility: hidden;
+}
