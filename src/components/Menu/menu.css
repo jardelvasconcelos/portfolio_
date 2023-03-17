@@ -2,12 +2,15 @@
 .index_menu {
     position: fixed;
     top: 30px;
-    left: 30px;
+    left: 25px;
     width: 250px;
    /*  border: 2px solid white; */
     background-color: var(--cor7);
     border-radius: 35px;
+    
 }
+
+
 
 .menu {
     display: flex;
@@ -23,3 +26,10 @@
     font-family: var(--font3);
     margin: 30px 0;
 }
+
+/* .aparecerMenu{
+    visibility: visible;
+  }
+  .tirarMenu{
+    display: none;
+  }  */

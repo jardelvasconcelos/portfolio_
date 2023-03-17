@@ -1,20 +1,24 @@
-import React from "react";
+
 import React,{useState} from "react";
 import "./menu_buttom.css";
 
 
 export default function Buttom_Menu(){
 
-    const [openMenu , setOpenMenu] = useState();
+    const [openMenu , setOpenMenu] = useState('visibilidadeOK');
+
+    function Aparecer() {
+        setOpenMenu('visibilidadeN');
+    }
 
     return (
-        <buttom onClick = {openMenu} className = "container_buttom">
-            <a href="">
+        <div className={openMenu}>
+        <button onClick = {Aparecer} className = "container_buttom ">
                 <div className="menu_burger"></div>
                 <div className="menu_burger"></div>
-                <div className="menu_burger"></div>
-            </a>
-        </buttom>    
+                <div className="menu_burger"></div>    
+        </button>    
+        </div>
 
     )
 }

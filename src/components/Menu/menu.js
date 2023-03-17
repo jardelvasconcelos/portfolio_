@@ -2,8 +2,9 @@ import './menu.css';
 import FecharMenu from '../Buttom_fechar_menu/buttom_fechar_menu';
 
 export default function Menu() {
+
     return (
-        <section className='index_menu'>
+        <section className='index_menu '>
             <div>
                 <FecharMenu/>
             </div>
