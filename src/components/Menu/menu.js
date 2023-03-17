@@ -7,7 +7,6 @@ export default function Menu() {
     function desaparecer() {
         setA('display_fora');
     }
-
     return (
         <section className={a}>
             <section className='index_menu'>

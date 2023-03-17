@@ -9,7 +9,11 @@ export default function Buttom_Menu() {
     const [openMenu, setOpenMenu] = useState('visibilidadeN');
 
     function Aparecer() {
-        setOpenMenu('visibilidadeOk');
+        if (openMenu === 'visibilidadeOk') {
+            setOpenMenu('visibilidadeN');
+        } else {
+            setOpenMenu('visibilidadeOk');
+        }
     }
 
     return (
