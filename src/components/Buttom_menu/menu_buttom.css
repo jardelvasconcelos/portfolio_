@@ -13,8 +13,8 @@
     background-color: #ebebf0;
 }
 button{
-  background-color:var(--cor7);
-  border-radius: 10px;
+  background: none ;
+  border: none;
 }
 .visibilidadeN{
   visibility: hidden;
