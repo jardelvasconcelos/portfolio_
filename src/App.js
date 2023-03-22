@@ -5,8 +5,6 @@ import Sobre from './components/Sobre/sobre';
 import Cursos from './components/Cursos/cursos';
 import Projetos from './components/Projetos/projetos';
 import Footer from './components/Footer/footer';
-import Menu from './components/Menu/menu';
-import Buttom_Menu from './components/Buttom_menu/menu_buttom';
 import './App.css';
 
 function App() {

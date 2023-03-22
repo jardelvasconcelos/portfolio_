@@ -1,6 +1,5 @@
 
 import React, { useState } from "react";
-import Menu from "../Menu/menu.js";
 import "./menu_buttom.css";
 
 
@@ -22,7 +21,6 @@ export default function Buttom_Menu() {
                 </button>
             </div>
             <div className={openMenu ? 'visibilidadeOK' : 'visibilidadeN'}> </div>
-
             <section className={openMenu ? 'visibilidadeOk' : 'visibilidadeN'}>
                 <section className='index_menu'>
                     <div>
