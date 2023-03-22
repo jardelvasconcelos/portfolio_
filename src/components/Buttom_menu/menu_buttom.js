@@ -4,30 +4,40 @@ import Menu from "../Menu/menu.js";
 import "./menu_buttom.css";
 
 
+
 export default function Buttom_Menu() {
 
-    const [openMenu, setOpenMenu] = useState('visibilidadeN');
+    const [openMenu, setOpenMenu] = useState(false);
 
-    function Aparecer() {
-        if (openMenu === 'visibilidadeOk') {
-            setOpenMenu('visibilidadeN');
-        } else {
-            setOpenMenu('visibilidadeOk');
-        }
+    function aparecer() {
+        setOpenMenu(!openMenu)
     }
-
     return (
         <section>
             <div className="container_buttom ">
-                <button onClick={Aparecer} >
+                <button onClick={aparecer} >
                     <div className="menu_burger"></div>
                     <div className="menu_burger"></div>
                     <div className="menu_burger"></div>
                 </button>
             </div>
-            <div className={openMenu}>
-                <Menu/>
-            </div>
+            <div className={openMenu ? 'visibilidadeOK' : 'visibilidadeN'}> </div>
+
+            <section className={openMenu ? 'visibilidadeOk' : 'visibilidadeN'}>
+                <section className='index_menu'>
+                    <div>
+                        <button onClick={aparecer} className="buttom_close">X</button>
+                    </div>
+                    <header >
+                        <nav className="menu">
+                            <a href="#sobre" className="topcis">Sobre</a>
+                            <a href="#certificados" className="topcis">Cursos</a>
+                            <a href="#projects" className="topcis">Projetos</a>
+                            <a href="#contatos" className="topcis">Contatos</a>
+                        </nav>
+                    </header>
+                </section>
+            </section>
         </section>
 
     )

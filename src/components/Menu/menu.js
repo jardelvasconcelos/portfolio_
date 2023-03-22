@@ -2,13 +2,13 @@ import React, { useState } from 'react';
 import './menu.css';
 
 export default function Menu() {
-    const [a, setA] = useState('display_dentro');
+    const [a, setA] = useState(false);
 
     function desaparecer() {
-        setA('display_fora');
+        setA(!a);
     }
     return (
-        <section className={a}>
+        <section className={a ? 'display_fora' : 'display_dentro'}>
             <section className='index_menu'>
                 <div>
                     <button onClick={desaparecer} className="buttom_close">X</button>

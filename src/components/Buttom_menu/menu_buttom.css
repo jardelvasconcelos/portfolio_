@@ -23,3 +23,11 @@ button{
   display:visible;
 }
 
+
+.display_fora{
+  visibility: hidden;
+}
+.display_dentro{
+  display: visible;
+}
+
