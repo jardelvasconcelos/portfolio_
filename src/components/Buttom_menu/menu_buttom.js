@@ -20,7 +20,7 @@ export default function Buttom_Menu() {
                     <div className="menu_burger"></div>
                 </button>
             </div>
-            <div className={openMenu ? 'visibilidadeOK' : 'visibilidadeN'}> </div>
+           
             <section className={openMenu ? 'visibilidadeOk' : 'visibilidadeN'}>
                 <section className='index_menu'>
                     <div>
