@@ -7,9 +7,13 @@ import "./menu_buttom.css";
 export default function Buttom_Menu() {
 
     const [openMenu, setOpenMenu] = useState(false);
-
     function aparecer() {
         setOpenMenu(!openMenu)
+    }
+
+    const[fecharmenu , setFecharMenu] = useState();
+    function fechar(){
+        setFecharMenu('visibilidadeN')
     }
     return (
         <section>
@@ -20,9 +24,9 @@ export default function Buttom_Menu() {
                     <div className="menu_burger"></div>
                 </button>
             </div>
-           
             <section className={openMenu ? 'visibilidadeOk' : 'visibilidadeN'}>
                 <section className='index_menu'>
+                    
                     <div>
                         <button onClick={aparecer} className="buttom_close">X</button>
                     </div>
