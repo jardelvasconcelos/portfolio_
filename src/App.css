@@ -3,6 +3,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    
 }
 
 
@@ -37,10 +38,26 @@ html {
     --cor9: ;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+
 :root {
     --font1: 'Lato', sans-serif;
     --font2: 'Merriweather', serif;
     --font3: 'Poppins', sans-serif;
+    --font4: 'Noto Sans', sans-serif;
+}
+
+.font1{
+    font-family: var(--font1);
+}
+.font2{
+    font-family: var(--font2);
+}
+.font3{
+    font-family: var(--font3);
+}
+.font4{
+    font-family: var(--font4);
 }
 
 

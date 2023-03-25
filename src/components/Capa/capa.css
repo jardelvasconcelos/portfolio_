@@ -1,21 +1,23 @@
-.section{
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 .tela_home {
-     background-image: url('../../../public/assets/img/image_fundo.jpg');
-     background-size: cover; 
+    background-image: url('../../../public/assets/img/image_fundo.jpg');
+    background-size: cover; 
 }
-.content_home_content{
+.content_home_content_{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-weight: 100;
     text-align: center;
-    width: 65%;
+  
+    /* width: 65%; */
 }
+.section{
+    height: 100vh;
+   /*  width: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+

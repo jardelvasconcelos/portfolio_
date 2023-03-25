@@ -25,7 +25,7 @@
 .cursos_coment{
     text-align: center; 
     line-height:30px;
-    font-family: var(--font3);
+    font-family: var(--font4);
     list-style: none;
     color: var(--cor4)
 }

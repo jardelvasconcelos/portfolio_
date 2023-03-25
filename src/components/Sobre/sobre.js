@@ -4,8 +4,8 @@ export default function Sobre(){
     return(
         <section className=" tela_sobre section_sobre color-5" id="sobre">
             <div className="content_home_content_">
-                <h1 className="content_title">Um pouco sobre mim ...</h1>
-                <p className="content_description ">Técnico em Eletrônica, formado em
+                <h1 className="content_title font4">Um pouco sobre mim ...</h1>
+                <p className="content_description font4 ">Técnico em Eletrônica, formado em
                     Desenvolvimento de Sistemas e atualmente cursando Engenharia de Software, sou uma pessoa sedenta por
                     conhecimento e
                     tecnologias. Gosto muito de

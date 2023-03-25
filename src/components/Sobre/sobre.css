@@ -1,13 +1,11 @@
 .content_title{
     font-size: 35px;
-    font-family: var(--font3);
     width: 80%;
     text-align:center;
     padding: 30px;
 }
 .content_description{
     font-size: 25px;
-    font-family: var(--font3);
     text-align:center;
     width: 80%;
 }
