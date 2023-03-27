@@ -26,9 +26,10 @@ export default function Buttom_Menu() {
             </div>
             <section className={openMenu ? 'visibilidadeOk' : 'visibilidadeN'}>
                 <section className='index_menu'>
-                    
                     <div>
-                        <button onClick={aparecer} className="buttom_close">X</button>
+                        <button onClick={aparecer} >
+                            <img src="assets/img/fechar.png" alt="" className="buttom_close" />
+                        </button>
                     </div>
                     <header >
                         <nav className="menu">
