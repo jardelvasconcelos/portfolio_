@@ -34,7 +34,8 @@ button{
   height: 100vh;
   background-color: var(--cor7);
   animation-name: transition;
-  animation-duration: 5s;
+  animation-duration: 3s;
+  border: 1px solid white;
 }
 @keyframes transition {
 
@@ -80,6 +81,8 @@ button{
   width: 38px;
  
 }
-
+.menu_um{
+  border: 2px solid orange;
+}
 
 

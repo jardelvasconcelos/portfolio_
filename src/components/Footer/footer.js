@@ -3,7 +3,7 @@ import './footer.css';
 export default function Footer() {
     return (
         <footer id="contatos">
-            <div className="footer-container">
+            {/*  <div className="footer-container">
                 <div className="footer-container-item">
                     <a href="https://wa.me/5541984360158" target="_blank">
                         <img src="assets/img/footer/whats_logo.png" alt=""
@@ -17,11 +17,10 @@ export default function Footer() {
                     <a href="https://github.com/jardelvasconcelos" target="_blank">
                         <img src="assets/img/footer/github_logo.png" alt=""
                             className="logo_footer" /></a>
-                </div>
-                <div className="footer-container-item">
-                    <p className="footer-credit">Jardel Vasconcelos</p>
-                </div>
+                </div> */}
+            <div className="footer-container-item">
+                <p className="footer-credit">Jardel Vasconcelos</p>
             </div>
-        </footer>
+        </footer >
     )
 }

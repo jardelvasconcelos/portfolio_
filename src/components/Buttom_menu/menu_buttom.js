@@ -11,8 +11,8 @@ export default function Buttom_Menu() {
         setOpenMenu(!openMenu)
     }
 
-    const[fecharmenu , setFecharMenu] = useState();
-    function fechar(){
+    const [fecharmenu, setFecharMenu] = useState();
+    function fechar() {
         setFecharMenu('visibilidadeN')
     }
     return (
@@ -26,19 +26,38 @@ export default function Buttom_Menu() {
             </div>
             <section className={openMenu ? 'visibilidadeOk' : 'visibilidadeN'}>
                 <section className='index_menu'>
-                    <div >
+
+
+                    <div className="menu_um">
                         <button onClick={aparecer} >
                             <img src="assets/img/fechar_.png" alt="fechar" className="buttom_close" />
                         </button>
-                    </div>
-                    <header >
                         <nav className="menu">
                             <a href="#sobre" className="topcis">Sobre</a>
                             <a href="#certificados" className="topcis">Cursos</a>
                             <a href="#projects" className="topcis">Projetos</a>
-                            <a href="#contatos" className="topcis">Contatos</a>
                         </nav>
-                    </header>
+                    </div>
+
+
+
+                    <div className="footer-container-item">
+                        <p className="topcis">Contatos</p>
+                        <a href="https://wa.me/5541984360158" target="_blank">
+                            <img src="assets/img/footer/whats_logo.png" alt=""
+                                className="logo_footer" /></a>
+                        <a href="mailto:tecjardelv@gmail.com" target="_blank">
+                            <img src="assets/img/footer/gmail_logo.png" alt=""
+                                className="logo_footer" /></a>
+                        <a href="https://www.linkedin.com/in/newjardel-vasconcelos" target="_blank">
+                            <img
+                                src="assets/img/footer/linkedin_logo.png" alt="" className="logo_footer" /></a>
+                        <a href="https://github.com/jardelvasconcelos" target="_blank">
+                            <img src="assets/img/footer/github_logo.png" alt=""
+                                className="logo_footer" /></a>
+                    </div>
+
+
                 </section>
             </section>
         </section>
