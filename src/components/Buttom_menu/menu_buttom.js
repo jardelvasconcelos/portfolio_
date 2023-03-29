@@ -41,22 +41,23 @@ export default function Buttom_Menu() {
 
 
 
-                    <div className="footer-container-item">
-                        <p className="topcis">Contatos</p>
-                        <a href="https://wa.me/5541984360158" target="_blank">
-                            <img src="assets/img/footer/whats_logo.png" alt=""
-                                className="logo_footer" /></a>
-                        <a href="mailto:tecjardelv@gmail.com" target="_blank">
-                            <img src="assets/img/footer/gmail_logo.png" alt=""
-                                className="logo_footer" /></a>
-                        <a href="https://www.linkedin.com/in/newjardel-vasconcelos" target="_blank">
-                            <img
-                                src="assets/img/footer/linkedin_logo.png" alt="" className="logo_footer" /></a>
-                        <a href="https://github.com/jardelvasconcelos" target="_blank">
-                            <img src="assets/img/footer/github_logo.png" alt=""
-                                className="logo_footer" /></a>
+                    <div className="container_contatos">
+                        <p className="topciss">Contatos</p>
+                        <div className="footer-container-item">
+                            <a href="https://wa.me/5541984360158" target="_blank">
+                                <img src="assets/img/footer/whats_logo.png" alt=""
+                                    className="logo_footer" /></a>
+                            <a href="mailto:tecjardelv@gmail.com" target="_blank">
+                                <img src="assets/img/footer/gmail_logo.png" alt=""
+                                    className="logo_footer" /></a>
+                            <a href="https://www.linkedin.com/in/newjardel-vasconcelos" target="_blank">
+                                <img
+                                    src="assets/img/footer/linkedin_logo.png" alt="" className="logo_footer" /></a>
+                            <a href="https://github.com/jardelvasconcelos" target="_blank">
+                                <img src="assets/img/footer/github_logo.png" alt=""
+                                    className="logo_footer" /></a>
+                        </div>
                     </div>
-
 
                 </section>
             </section>
