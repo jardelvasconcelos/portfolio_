@@ -17,7 +17,7 @@ function App() {
         <Sobre/>
         <Cursos/>
         <Projetos/>
-        {/* <Footer/>  */}
+        <Footer/> 
     </div>
   );
 }

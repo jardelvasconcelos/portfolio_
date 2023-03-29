@@ -2,7 +2,7 @@ import './footer.css';
 
 export default function Footer() {
     return (
-        <footer id="contatos">
+        <footer id="contatos" className="container_footer">
             {/*  <div className="footer-container">
                 <div className="footer-container-item">
                     <a href="https://wa.me/5541984360158" target="_blank">

@@ -26,6 +26,7 @@
     color: white;
     font-weight: 600;
     margin-top: 10%;
+  
 }
 .topciss{
     text-decoration: none;
@@ -41,4 +42,7 @@
     justify-content: center;
     height: 50%;
    /*  background-color: yellow; */
+}
+.container_footer{
+    background-color:var(--cor6) ;
 }
