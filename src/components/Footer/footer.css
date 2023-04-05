@@ -3,20 +3,22 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-content: center;
-    /* background-color: var(--cor7); */
-  /*   height: 100vh */;
-   
 }
 .footer-container-item{
-    display: flex;
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        gap: 20px;
+   /*  display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center; 
+    align-items: center;  */
+   /*  border: 2px solid white; */
 }
 .logo_footer{
-    width: 25px;
-    height: 25px;
-   /*  margin: 40% */;
+    width: 40px;
+    height: 40px;
+    /* border: 2px solid yellow; */
 }
 .footer-credit{
     font-family: var(--font3);
@@ -26,7 +28,6 @@
     color: white;
     font-weight: 600;
     margin-top: 10%;
-  
 }
 .topciss{
     text-decoration: none;
@@ -39,9 +40,9 @@
 .container_contatos{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    height: 50%;
-   /*  background-color: yellow; */
+    justify-content: start;
+    height: 50vh;
+   /*  border: 2px solid red; */
 }
 .container_footer{
     background-color:var(--cor6) ;
