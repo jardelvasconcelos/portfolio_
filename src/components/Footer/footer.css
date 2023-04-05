@@ -40,10 +40,11 @@
 .container_contatos{
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: center;
     height: 50vh;
-   /*  border: 2px solid red; */
+    /* border: 2px solid red; */
 }
 .container_footer{
     background-color:var(--cor6) ;
 }
+ 

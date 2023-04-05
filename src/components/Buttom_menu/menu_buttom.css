@@ -30,12 +30,12 @@ button{
 .index_menu {
   position: fixed;
   top: 0px;
-  width: 20vw;
+  width: 15vw;
   height: 100vh;
   background-color: var(--cor7);
   animation-name: transition;
   animation-duration: 3s;
-  /* border: 1px solid white; */
+  /* border: 5px solid white; */
 }
 @keyframes transition {
 
@@ -68,7 +68,7 @@ button{
   color: var(--cor4);
   font-size: 20px;
   font-family: var(--font4);
-  margin: 30px 0;
+  margin: 15px 0;
 }
 .container_buttom_close{
   position: relative;
@@ -83,6 +83,7 @@ button{
 }
 .menu_um{
   /* border: 2px solid orange; */
+  height: 50%;
 }
 
 
