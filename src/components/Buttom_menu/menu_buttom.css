@@ -87,3 +87,32 @@ button{
 }
 
 
+
+.container_contatos{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 50vh;
+  /* border: 2px solid red; */
+}
+.topciss{
+  text-decoration: none;
+  color: var(--cor4);
+  font-size: 20px;
+  font-family: var(--font4);
+  margin: 30px 0;
+  text-align: center;
+}
+.footer-container-item p{
+  color: white;
+  font-weight: 600;
+  margin-top: 10%;
+}
+.logo_footer{
+  width: 40px;
+  height: 40px;
+  /* border: 2px solid yellow; */
+}
+
+
+
