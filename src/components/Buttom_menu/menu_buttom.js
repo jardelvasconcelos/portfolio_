@@ -11,10 +11,10 @@ export default function Buttom_Menu() {
         setOpenMenu(!openMenu)
     }
 
-    const [fecharmenu, setFecharMenu] = useState();
+   /*  const [fecharmenu, setFecharMenu] = useState();
     function fechar() {
         setFecharMenu('visibilidadeN')
-    }
+    } */
     return (
         <section>
             <div className="container_buttom ">
@@ -24,10 +24,10 @@ export default function Buttom_Menu() {
                     <div className="menu_burger"></div>
                 </button>
             </div>
+
+
             <section className={openMenu ? 'visibilidadeOk' : 'visibilidadeN'}>
                 <section className='index_menu'>
-
-
                     <div className="menu_um">
                         <button onClick={aparecer} >
                             <img src="assets/img/fechar_.png" alt="fechar" className="buttom_close" />
