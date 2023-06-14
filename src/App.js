@@ -15,7 +15,7 @@ function App() {
         {/* <Topo/> */}
         <Capa/>
         <Sobre/>
-        <Cursos/>
+        {/* <Cursos/> */}
         <Projetos/>
         <Footer/> 
     </div>
