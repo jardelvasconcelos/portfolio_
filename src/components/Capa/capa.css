@@ -7,13 +7,12 @@
     align-items: flex-start;
 }
 .content_home_content_{
-     /*  display: flex;
+    height: 100vh;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-weight: 100;
-    text-align: center; */
-    height: 100vh;
 }
 .section{
     margin-bottom: 120px ;

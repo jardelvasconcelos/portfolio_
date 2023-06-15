@@ -14,13 +14,14 @@
 }
 .section_sobre{
     height: auto;
-    width: 100%;
+    width: auto;
+    margin: 0px 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center; 
 }
-.content_home_content_{
+.content_home_content_about{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -32,8 +33,8 @@
     height: 100%;
 }
 .image_perfil_{
-    width: 350px;
-    height: 450px;
+    width: 300px;
+    height: 400px;
 }
 
 @media (max-width:480px) { 
