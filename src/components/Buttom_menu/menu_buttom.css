@@ -40,9 +40,10 @@ button{
   background-color: var(--cor7);
   animation-name: transition;
   animation-duration: 3s;
-  /* border: 5px solid white; */
 }
-
+.image_perfil_{
+  width: 100%;  
+}
 @keyframes transition {
 
   0%{
@@ -55,19 +56,15 @@ button{
 
  @media screen and (min-width: 280px) and (max-width: 900px) {
 	.index_menu {
-		/* background: rgb(238, 7, 7); */
     width: 50vw;
     height: 100vh;
 	}
-	
 }
- 
 .menu {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
-  align-items: center;
-  
+  align-items: center; 
 }
 .topcis {
   text-decoration: none;
@@ -85,21 +82,15 @@ button{
   margin: 27px 0px 20px 30px;
   height: 38px;
   width: 38px;
- 
 }
 .menu_um{
-  /* border: 2px solid orange; */
   height: 50%;
 }
-
-
-
 .container_contatos{
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 50vh;
-  /* border: 2px solid red; */
 }
 .topciss{
   text-decoration: none;
@@ -117,7 +108,6 @@ button{
 .logo_footer{
   width: 40px;
   height: 40px;
-  /* border: 2px solid yellow; */
 }
 
 

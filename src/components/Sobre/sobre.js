@@ -13,9 +13,6 @@ export default function Sobre(){
                     compartilhar conhecimentos com as pessoas em minha volta.
                 </p>
             </div>
-           {/*  <div className="person">
-                <img className="image_perfil_ " src="assets/img/home/imageperfil.png" alt=""/>
-            </div> */}
         </section>
     )
 }
