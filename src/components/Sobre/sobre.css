@@ -14,8 +14,8 @@
 }
 .section_sobre{
     height: auto;
-    width: auto;
-    margin: 0px 100px;
+    width:auto;
+    /* margin: 0px 100px; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -54,6 +54,7 @@
 @media (max-width:600px) { 
      .section_sobre{
         flex-direction: column;
+        margin: auto;
      }
      .person{
         width: auto ;
@@ -73,6 +74,7 @@
     /* tablet, landscape iPad, lo-res laptops ands desktops */ 
     .section_sobre{
         flex-direction: column;
+        margin: auto;
      }
      .person{
         width: auto ;

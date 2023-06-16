@@ -34,7 +34,7 @@ export default function Buttom_Menu() {
                         </button>
                         <nav className="menu">
                             <a href="#sobre" className="topcis">Sobre</a>
-                            <a href="#certificados" className="topcis">Cursos</a>
+                            {/* <a href="#certificados" className="topcis">Cursos</a> */}
                             <a href="#projects" className="topcis">Projetos</a>
                         </nav>
                     </div>
