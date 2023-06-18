@@ -5,7 +5,7 @@ import Card from './cardProject.js';
 export default function Projetos() {
    return (
       <section className=" tela_projetos sections color-6" id="projects">
-         <h1>Projetos</h1>
+         <h1>Alguns Projetos</h1>
          <div className="my-projects">
             <Card
                icon="assets/img/cursos_formacao/logo_react.png" alt=""

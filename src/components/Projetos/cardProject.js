@@ -1,6 +1,6 @@
 
 const Card = (props) =>
-    <div className="projects_container color-6">
+    <div className="projects_container color-8">
         <img className= "image_projects" alt = '' src={props.icon} />
         <p className="coment_projects">{props.titulo}</p>
         <div className="button_card">

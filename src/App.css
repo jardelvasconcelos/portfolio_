@@ -36,7 +36,7 @@ html {
     --cor5: #d3cccc;
     --cor6: #040c13f1;
     --cor7: #1b64a3f1;
-    --cor8: ;
+    --cor8: #000000;
     --cor9: ;
 }
 
@@ -94,7 +94,9 @@ html {
     background-color: var(--cor7);
 }
 
-.color-8 {}
+.color-8 {
+    background-color: var(--cor8);
+}
 
 .color-9 {}
 
@@ -114,9 +116,9 @@ html {
     text-align: left;
     font-family: var(--font3);
     color: var(--cor4);
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
-    margin: 35px 0;
+    margin: 50px 0 20px 0;
 }
 
 /* .buttom {

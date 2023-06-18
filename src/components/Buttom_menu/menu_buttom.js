@@ -33,20 +33,14 @@ export default function Buttom_Menu() {
                             <img src="assets/img/fechar_.png" alt="fechar" className="buttom_close" />
                         </button>
                         <nav className="menu">
-                           {/* <p>Nisi adipisicing aliqua eiusmod adipisicing id incididunt aliquip nulla id proident ad voluptate reprehenderit. 
-                            .</p> */} 
-                            {/* <a href="#sobre" className="topcis">Sobre</a>
-                            <a href="#certificados" className="topcis">Cursos</a>
-                            <a href="#projects" className="topcis">Projetos</a> */}
                             <div className="person">
                                 <img className="image_perfil_ " src="assets/img/home/imageperfil.png" alt="" />
                             </div>
                         </nav>
-
                     </div>
-                    
+
                     <div className="container_contatos">
-                        <p className="topciss">Contatos</p>
+                        <p className="topciss">Meus Contatos</p>
                         <div className="footer-container-item">
                             <a href="https://wa.me/5541984360158" target="_blank">
                                 <img src="assets/img/footer/whats_logo.png" alt=""
