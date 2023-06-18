@@ -41,12 +41,14 @@ html {
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 
 :root {
     --font1: 'Lato', sans-serif;
     --font2: 'Merriweather', serif;
     --font3: 'Poppins', sans-serif;
     --font4: 'Noto Sans', sans-serif;
+    --font5: 'Audiowide', cursive;
 }
 
 .font1{
@@ -60,6 +62,9 @@ html {
 }
 .font4{
     font-family: var(--font4);
+}
+.font5{
+    font-family:var(--font5);
 }
 
 
