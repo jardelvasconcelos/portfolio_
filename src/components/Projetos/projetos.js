@@ -9,27 +9,27 @@ export default function Projetos() {
          <div className="my-projects">
             <Card
                icon="assets/img/cursos_formacao/logo_react.png" alt=""
-               titulo='Cadastro de Equipamentos'
-               gitHub='https://github.com/jardelvasconcelos/portfolio_'
-               deploy='https://github.com/jardelvasconcelos/portfolio_'
+               titulo='Clinica Médica'
+               gitHub='https://github.com/jardelvasconcelos/projeto_clinica_medica.git'
+               deploy='https://jardelvasconcelos.github.io/projeto_clinica_medica/index.html'
             />
             <Card
                icon="assets/img/cursos_formacao/logo_react.png" alt=""
                titulo='Manual Técnico'
-               gitHub='https://github.com/jardelvasconcelos/portfolio_'
-               deploy='https://github.com/jardelvasconcelos/portfolio_'
+               gitHub='https://github.com/jardelvasconcelos/consult_.git'
+               deploy='https://jardelvasconcelos.github.io/consult_/'
             />
             <Card
                icon="assets/img/cursos_formacao/logo_react.png" alt=""
-               titulo='LandPage Ótica'
-               gitHub='https://github.com/jardelvasconcelos/portfolio_'
-               deploy='https://github.com/jardelvasconcelos/portfolio_'
+               titulo='LandPage Systech'
+               gitHub='https://github.com/jardelvasconcelos/systech.git'
+               deploy='https://systech-eight.vercel.app/'
             />
             <Card
                icon="assets/img/cursos_formacao/logo_react.png" alt=""
-               titulo='Clube Estatistica'
-               gitHub='https://github.com/jardelvasconcelos/portfolio_'
-               deploy='https://github.com/jardelvasconcelos/portfolio_'
+               titulo='Sorveteria'
+               gitHub='https://github.com/jardelvasconcelos/sorveteria.git'
+               deploy='https://sorveteria-pi.vercel.app/'
             />
          </div>
       </section>
