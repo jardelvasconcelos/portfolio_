@@ -38,9 +38,17 @@ button{
   width: 15vw;
   height: 100vh;
   background-color: var(--cor7);
-  animation-name: transition;
-  animation-duration: 5s;
+  animation: open 8s;
 }
+@keyframes open {
+
+  from{
+    left: -50vw;
+  }
+  to {
+    left: 0px;
+  }
+ }
 .container_contatos{
 
   height: 50vh;
@@ -56,22 +64,6 @@ button{
   box-shadow: 5px 5px 5px black;
   margin-top: 5vh;
 }
-@keyframes transition {
-
-  0%{
-    transform: translateX(-20vw);
-  }
-   100%{
-    transform: translateX(0vw);
-  }
- /*  from{
-    left: -30vw;
-  }
-  to {
-    left: 0px;
-  } */
- }
-
  @media screen and (min-width: 280px) and (max-width: 900px) {
 	.index_menu {
     width: 50vw;

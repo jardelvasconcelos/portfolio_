@@ -39,13 +39,13 @@
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    width: 200px;
-    height: 350px;
+    width: 180px;
+    height: 330px;
 }
-/* .projects_container:hover{
-    box-shadow: 5px 5px 5px #6e6767;
-    transition: 0.5s;
-} */
+.projects_container{
+    box-shadow: 5px 5px 5px #524e4e;
+   
+}
 .image_projects{
     width: 150px;
     height: 150px;
@@ -63,7 +63,7 @@
     }
     .projects_container{
         margin: 20px 0px;
-        width: 90vw;
+        width: 70vw;
     }    
 }
 @media screen and (min-width:820px) and (max-width:950px) { 
