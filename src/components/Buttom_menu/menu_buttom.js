@@ -1,5 +1,6 @@
 
 import React, { useState } from "react";
+import 'animate.css';
 import "./menu_buttom.css";
 
 
@@ -8,14 +9,10 @@ export default function Buttom_Menu() {
 
     const [openMenu, setOpenMenu] = useState(false);
     function aparecer() {
-        setOpenMenu(!openMenu)
+        setOpenMenu(!openMenu);
     }
-
-    /*  const [fecharmenu, setFecharMenu] = useState();
-     function fechar() {
-         setFecharMenu('visibilidadeN')
-     } */
     return (
+
         <section className="testes">
             <div className="container_buttom ">
                 <button onClick={aparecer} >
@@ -24,9 +21,8 @@ export default function Buttom_Menu() {
                     <div className="menu_burger"></div>
                 </button>
             </div>
-
-
-            <section className={openMenu ? 'visibilidadeOk' : 'visibilidadeN'}>
+            {/* div>p+h2.menu+section>ul>li#item$*5>a */}
+            <section className={openMenu ? 'dentro' : 'fora'}>
                 <section className='index_menu'>
                     <div className="menu_um">
                         <button onClick={aparecer} >

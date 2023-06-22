@@ -21,11 +21,11 @@ button{
   background: none ;
   border: none;
 }
-.visibilidadeN{
-  visibility: hidden;
+.fora{
+  display: none;
 }
-.visibilidadeOK{
-  display:visible;
+.dentro{
+  visibility: auto;
 }
 
 /* Menu */
@@ -38,17 +38,10 @@ button{
   width: 15vw;
   height: 100vh;
   background-color: var(--cor7);
-  animation: open 8s;
+  border-radius: 0px 70px 0px 0px;
+  animation: backInUp/* bounceInLeft */ /* backInUp */; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1.5s; /* don't forget to set a duration! */
 }
-@keyframes open {
-
-  from{
-    left: -50vw;
-  }
-  to {
-    left: 0px;
-  }
- }
 .container_contatos{
 
   height: 50vh;
