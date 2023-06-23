@@ -5,7 +5,7 @@ import Card from './cardProject.js';
 export default function Projetos() {
    return (
       <section className=" tela_projetos sections color-6" id="projects">
-         <h1>Alguns Projetos</h1>
+         <h1 className='content_title'>Alguns Projetos</h1>
          <div className="my-projects">
             <Card
                icon="assets/img/projetos/logo.png" alt=""

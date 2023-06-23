@@ -8,7 +8,7 @@ export default function Sobre() {
                 <p className="content_description font4 ">&emsp;Técnico em Eletrônica, formado em
                     Desenvolvimento de Sistemas e atualmente cursando Engenharia de Software, sou uma pessoa sedenta por
                     conhecimento e
-                    tecnologias. <br/>&emsp;Gosto muito de
+                    tecnologias. Gosto muito de
                     compartilhar idéias e ser um pouco diferente do normal. Busco sempre aprender e
                     compartilhar conhecimentos com as pessoas em minha volta.
                 </p>
